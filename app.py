@@ -4,6 +4,10 @@ import pandas as pd
 from datetime import datetime
 import sys
 
+# Crear directorios necesarios si no existen
+for dir_path in ['data', 'data/users', '.streamlit']:
+    os.makedirs(dir_path, exist_ok=True)
+
 # Add utils directory to path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
