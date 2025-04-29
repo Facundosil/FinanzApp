@@ -1,0 +1,62 @@
+# Instrucciones para subir el proyecto a GitHub
+
+## Método 1: Usar la integración de Git de Replit
+
+Replit tiene integración con GitHub que puedes utilizar:
+
+1. En el panel lateral izquierdo de Replit, busca el icono de Git (bifurcación)
+2. Haz clic en "Connect to GitHub"
+3. Autoriza la conexión entre Replit y GitHub si es necesario
+4. Crea un nuevo repositorio siguiendo los pasos que te indique la interfaz
+5. Realiza el commit inicial y sube los cambios
+
+## Método 2: Descargar el proyecto y subirlo manualmente
+
+### Paso 1: Descargar el proyecto desde Replit
+1. En Replit, ve a las "tres puntos" (...) en la parte superior derecha
+2. Selecciona "Download as zip" para descargar todo el proyecto
+
+### Paso 2: Crear un nuevo repositorio en GitHub
+1. Ve a https://github.com/new
+2. Ingresa el nombre del repositorio (por ejemplo, "finanzapp")
+3. Añade una descripción: "Aplicación de gestión financiera personal desarrollada con Streamlit"
+4. Elige si quieres que sea público o privado
+5. Haz clic en "Crear repositorio"
+
+### Paso 3: Subir el proyecto a GitHub
+1. Descomprime el archivo ZIP descargado
+2. Abre una terminal en la carpeta descomprimida
+3. Ejecuta los siguientes comandos:
+
+```bash
+# Inicializar Git
+git init
+
+# Añadir todos los archivos excepto los ignorados en .gitignore
+git add .
+
+# Crear el primer commit
+git commit -m "Versión inicial de FinanzApp"
+
+# Configurar el repositorio remoto (reemplaza 'tu-usuario' con tu nombre de usuario de GitHub)
+git remote add origin https://github.com/tu-usuario/finanzapp.git
+
+# Subir los cambios a la rama principal
+git push -u origin main
+```
+
+## Paso 3: Verificar que todo se haya subido correctamente
+1. Visita tu repositorio en GitHub
+2. Deberías ver todos los archivos del proyecto
+3. Asegúrate de que la estructura sea similar a la descrita en el README.md
+
+## Dependencias principales
+Si necesitas crear un nuevo entorno con las dependencias, estas son las principales:
+- streamlit>=1.22.0
+- pandas>=1.5.0
+- matplotlib>=3.5.0
+- numpy>=1.22.0
+- requests>=2.28.0
+
+## Nota importante
+Asegúrate de que ningún dato sensible o personal se suba a GitHub. El archivo .gitignore está configurado para excluir la carpeta de datos de usuarios, pero revisa siempre antes de hacer el commit.

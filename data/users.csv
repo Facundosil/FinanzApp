@@ -1,0 +1,4 @@
+username,password_hash,email,verified,verification_code,created_at
+Facundo Silva,14fa1537f9a3e9659208cbe4c37fa56ffcbeb36006dd4e3a3626b5330a077fe5,Facundomartin10.fs@gmail.com,False,EE4G4M,2025-04-29 11:05:22
+Facu Silva,14fa1537f9a3e9659208cbe4c37fa56ffcbeb36006dd4e3a3626b5330a077fe5,Facundomartin10.fs@gmail.com,False,UOQH0N,2025-04-29 11:09:44
+Facu,14fa1537f9a3e9659208cbe4c37fa56ffcbeb36006dd4e3a3626b5330a077fe5,Facundomartin10.fs@gmail.com,True,,2025-04-29 13:17:01

@@ -1,0 +1,60 @@
+# Archivos de datos de usuario (para no subir información personal)
+data/users/
+data/*_transactions.csv
+data/*_goals.csv
+
+# Archivos del sistema de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Carpetas y archivos de entorno virtual
+venv/
+ENV/
+.env
+
+# Archivos temporales de editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos del sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos específicos de Replit
+.replit.backup
+.cache/
+
+# Archivos específicos de Streamlit
+.streamlit/secrets.toml
